@@ -96,7 +96,7 @@ namespace Lowscope.ScriptableObjectUpdater
                         if (scriptableObjectMethods[i2].IsPrivate)
                         {
 #if NET_4_6
-                        Debug.Log($"Can only use InitializeRuntimeAssetMethod on public methods. {getObject.name} has it set to private");
+                        Debug.Log($"Can only use UpdateScriptableObject on public methods. {getObject.name} has it set to private");
 #else
                             Debug.Log(String.Format("Can only use InitializeRuntimeAssetMethod on public methods. {0} has it set to private", getObject.name));
 #endif

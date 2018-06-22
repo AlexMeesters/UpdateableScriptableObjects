@@ -2,7 +2,7 @@
 A methodology of calling Start, Awake update among other things in ScriptableObjects
 
 This package automatically searches through all scriptable objects for existing attributes during build time.
-Each Unity based callback is done through a different component to make it more optimal.
+Create a new GameObject at the first scene that invokes all the cached methods.
 
 Useage example:
 

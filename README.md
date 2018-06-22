@@ -1,4 +1,4 @@
-# UpdateableScriptableObjects
+# Updateable Scriptable Objects
 A methodology of calling Start, Awake update among other things in ScriptableObjects
 
 This package automatically searches through all scriptable objects for existing attributes during build time.

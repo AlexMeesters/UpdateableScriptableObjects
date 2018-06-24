@@ -6,10 +6,6 @@ using System.Linq;
 
 namespace Lowscope.ScriptableObjectUpdater
 {
-
-    /// <summary>
-    /// Contains all objects that are marked as ScriptableAsset
-    /// </summary>
     [System.Serializable]
     public class InitializeableAssetContainer : MonoBehaviour
     {

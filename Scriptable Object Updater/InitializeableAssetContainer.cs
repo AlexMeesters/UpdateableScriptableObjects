@@ -116,6 +116,7 @@ namespace Lowscope.ScriptableObjectUpdater
                         }
 
                         AddEventToContainer(awakeTicker.Events, updateEventContainer);
+                        awakeTicker.Awake();
 
                         break;
                     case EEventType.Start:
